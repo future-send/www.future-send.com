@@ -1,0 +1,34 @@
+import React from "react";
+import Image from "next/image";
+import skillsData from "../data/skillsData.js";
+
+export default function SkillsCard() {
+  return (
+    <div className="mt-10 space-y-16">
+      {skillsData.map((category, categoryIndex) => (
+        <div key={categoryIndex}>
+          {/* Categoria */}
+
+          <div className="border-b mb-6 flex flex-col lg:flex-row items-start">
+            <h1 className="text-4xl font-bold tracking-tighter flex-1">{category.category}</h1>
+          </div>
+
+          {/* Skill List */}
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
+            {category.skills.map((skill, index) => (
+              <div key={index} className="border-b border-neutral-900 pt-4 pb-2 px-4 flex flex-row items-center justify-between">
+                {/* Logo e Nome della Skill */}
+                <div className="flex items-center">
+                  <Image src={skill.logo} alt={`${skill.name} Logo`} width={25} height={25} className="text-neutral-900 me-3" />
+                  <h1 className="text-2xl font-light text-neutral-900">{skill.name}</h1>
+                </div>
+                {/* Rating */}
+                <div className="font-bold text-2xl flex items-center">{skill.rating}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
