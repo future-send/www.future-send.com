@@ -1,0 +1,93 @@
+[
+  {
+    "company": "Arbor Realty Trust",
+    "location": "New York, NY",
+    "period": "August 2023 - Present",
+    "role": "Web Developer",
+    "responsibilities": [
+      "Cross-functional Collaboration: Partner with teams such as development, marketing, and product to align designs with business goals and user needs",
+      "Optimization and Innovation: Continuously enhance the website’s usability, performance, and accessibility using the latest design tools and technologies.",
+      "Brand Identity Maintenance: Ensure all visual elements align with Arbor.com’s branding guidelines and consistently reflect the company’s vision and values.",
+      "Project Management: Manage design timelines, prioritize tasks, and deliver high-quality work within deadlines.",
+      "Problem-Solving: Troubleshoot design-related challenges and collaborate with developers to resolve technical limitations affecting the implementation."
+    ]
+  },
+  {
+    "company": "SAS",
+    "location": "Raleigh, NC",
+    "period": "June 2022 - August 2023",
+    "role": "Front-End Developer (Senior)",
+    "responsibilities": ["Partner with developers, designers, and strive to make the web run faster and leaner.", "Applying front-end technologies knowledge to investigate technical aspects of AEM for solutions to business problems.", "Creative problem solving, applying my knowledge and understanding of web technical concepts to design challenges."]
+  },
+  {
+    "company": "Edward Jones",
+    "location": "St. Louis, MO",
+    "period": "November 2020 - June 2022",
+    "role": "UX/UI Designer (Senior)",
+
+    "responsibilities": [
+      "Applying design thinking principles to our biggest opportunities.",
+      "Creating compelling learning assets that break down complex business products and concepts.",
+      "Partnering with fast-moving business areas to execute on complex strategies.",
+      "Facilitating design sprints to increase operational efficiency and efficacy.",
+      "Meeting tight deadlines with high attention to detail."
+    ]
+  },
+  {
+    "company": "StudioCDZ",
+    "location": "Eureka, MO",
+    "period": "February 2003 - Present",
+    "role": "UX/UI Designer | Front-End Developer (Senior)",
+    "responsibilities": [
+      "Develop design concepts for Dynamic Websites, Mobile Apps, Brochures, Cover Designs, Ads, Logos, and Presentations.",
+      "Wireframe and prototype the structure of the project as well as develop the front-end of the sites.",
+      "Monitored projects through all phases of production and coordinated print materials with outside vendors.",
+      "Effective problem solver, quick learner, team player, and leader.",
+      "10 years of extensive experience with HTML5, CSS3, and JavaScript programming.",
+      "20 years of extensive experience in design for Brochures, Invitations, Cover Design, Newsletters, Ads, and Logos."
+    ]
+  },
+
+  {
+    "company": "Maritz",
+    "location": "St. Louis, MO",
+    "period": "June 2014 - November 2020",
+    "role": "UX/UI Designer  |  Front-End Developer ",
+    "description": "Registration sites for incentive travel programs, conference programs, or promotional travel programs that the company facilitates and, at times, operates until post-event.",
+    "responsibilities": [
+      "Wireframe and prototype the structure of the project as well as develop the front-end of the sites.",
+      "Project includes: registration sites, websites, mobile app, RFP and email deploy.",
+      "Art direction of the project for consistency design style.",
+      "Assisting in an agile environment the back-end team.",
+      "Develop graphic design for brochure, newsletters, logo, advertising."
+    ]
+  },
+  {
+    "company": "Bryan Cave",
+    "location": "St. Louis, MO",
+    "period": "July 2006 - October 2013",
+    "role": "Creative Services Specialist ",
+    "responsibilities": ["Web support to the Marketing Department and Attorney (websites, blogs, web content update).", "Worked closely with marketing managers to develop creative designs for a wide range of printed materials.", "Managed relationships with all outside printing and finishing vendors."]
+  },
+  {
+    "company": "Studio Montage",
+    "location": "St. Louis, MO",
+    "period": "March 2004 - April 2006",
+    "role": "Graphic Designer (Senior)",
+    "responsibilities": ["Created colorful cover design, newsletters and websites for educational and medical books.", "Developed design concepts for brochures, newsletters, logos, posters and advertisements.", "Creative retouching and photo manipulation."]
+  },
+  {
+    "company": "Peruzzo Editore,  Edisport,  Mercurio",
+    "location": "Milano, Italia",
+    "period": "September 1994 - February 2003",
+    "role": "Graphic Designer",
+
+    "responsibilities": [
+      "Applying design thinking principles to our biggest opportunities.",
+      "Creating compelling learning assets that break down complex business products and concepts.",
+      "Partnering with fast-moving business areas to execute on complex strategies.",
+      "Facilitating design sprints to increase operational efficiency and efficacy.",
+      "Meeting tight deadlines with high attention to detail."
+    ]
+  }
+]
