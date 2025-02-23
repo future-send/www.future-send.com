@@ -7,7 +7,7 @@ export default function Page() {
   const print = portfolioData[0].print[0];
 
   return (
-    <div className="mt-40 pb-16">
+    <div className="mt-40 pb-16 animate__animated animate__fadeIn">
       <PortfolioSinglePage4Col
         title={print.title}
         subtitle={print.subtitle}
@@ -16,9 +16,9 @@ export default function Page() {
 
       <div className="mt-4 mx-6 space-y-16 ">
         <div className="grid grid-cols-1 gap-6">
-          <div className="border-b border-neutral-900 py-3 px-8 flex flex-row items-center justify-between ">
+          <div className="border-b border-neutral-400 py-3 px-8 flex flex-row items-center justify-between ">
             <div className="flex items-center">
-              <h2 className="font-light text-2xl flex pe-2 me-4 border-r border-neutral-900">tools </h2>
+              <h2 className="font-light text-2xl flex pe-2 me-4 border-r border-neutral-400">tools </h2>
               <div className=" flex flex-col items-center me-2 ">
                 <PortfolioSiglePageTools logoTool="/skills/adobeillustrator.svg" nameTool="illustrator" />
               </div>

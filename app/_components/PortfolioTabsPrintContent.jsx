@@ -11,7 +11,7 @@ export default function PortfolioTabsprintcontent() {
         <div key={index}>
           <div className="w-full h-48 overflow-hidden transition-transform duration-300 ease-in-out hover:scale-110">
             <Link href={item.link}>
-              <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full border border-neutral-900" />
+              <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full border border-neutral-400" />
             </Link>
           </div>
           <h1 className="text-center text-xl tracking-tighter font-bold py-4">

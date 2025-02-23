@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div className="mt-36 pb-8 md:pb-12 lg:pb-16 px-4 sm:px-6 md:px-16 xl:px-16 2xl:px-64 ">
+    <div className="mt-36 pb-8 md:pb-12 lg:pb-16 px-4 sm:px-6 md:px-16 xl:px-16 2xl:px-64 animate__animated animate__fadeIn ">
       <div className="flex flex-col md:flex-row">
         <div className="basis-1/6 content-center hidden xl:block   ">
           <img className="rounded-full " src="/photo.png" />

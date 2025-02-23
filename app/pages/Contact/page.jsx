@@ -40,36 +40,62 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="container mx-auto mt-40 px-8 lg:px-24">
+    <div className="container mx-auto mt-40 px-8 lg:px-24  animate__animated animate__fadeIn">
       <h1 className="text-5xl font-bold title">Get In Touch</h1>
       <form onSubmit={handleSubmit} className=" space-y-6 mt-10 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-3">
           {/* Name Field */}
           <div>
-            <label htmlFor="name" className="block text-lg font-light ms-5 mb-2 text-neutral-500">
+            <label htmlFor="name" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
               Name
             </label>
-            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="text-xl placeholder:text-neutral-200 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-300" placeholder="Your Name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
+              placeholder="Your Name"
+              required
+            />
           </div>
           {/* Email Field */}
           <div>
-            <label htmlFor="email" className="block text-lg font-light ms-5 mb-2 text-neutral-500">
+            <label htmlFor="email" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
               Email
             </label>
-            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="text-xl placeholder:text-neutral-200 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-300" placeholder="Your Email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
+              placeholder="Your Email"
+              required
+            />
           </div>
         </div>
         {/* Message Field */}
         <div>
-          <label htmlFor="message" className="block text-lg font-light mt-8 ms-5 mb-3 text-neutral-500">
+          <label htmlFor="message" className="block text-lg font-light mt-8 ms-5 mb-3 text-neutral-400 ">
             Message
           </label>
-          <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="5" className="text-xl placeholder:text-neutral-200 font-light mt-1 w-full px-5 py-4 border border-neutral-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-300" placeholder="Your Message" required></textarea>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            rows="5"
+            className="text-xl bg-neutral-300 text-neutral-900 placeholder:text-neutral-500/45 font-light mt-1 w-full px-5 py-4 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-500/45"
+            placeholder="Your Message"
+            required></textarea>
         </div>
         {/* Submit Button */}
         <div className="flex flex-col items-center">
-          <button type="submit" disabled={loading} className={`px-6 py-3 w-full text-xl font-bold text-white ${loading ? "bg-gray-400" : "bg-neutral-900 hover:bg-neutral-100 hover:text-neutral-900"} rounded-xl transition duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500`}>
-            {loading ? "Sending..." : "Send it"}
+          <button type="submit" disabled={loading} className={`px-6 py-3 w-full text-xl font-bold text-neutral-900 ${loading ? "bg-neutral-400" : "bg-neutral-300 hover:bg-neutral-100 hover:text-neutral-900"} rounded-xl transition duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500`}>
+            {loading ? "Sending..." : "SEND IT"}
           </button>
           {/* Messaggio di feedback */}
           {feedbackMessage && <p className={`mt-4 text-lg ${feedbackMessage === "Message sent successfully!" ? "text-green-500" : "text-red-500"}`}>{feedbackMessage}</p>}{" "}

@@ -24,7 +24,7 @@ export default function PortfolioTabs({ children }) {
   }, [pathname, router, tabs]);
 
   return (
-    <div className="mt-14">
+    <div className="mt-14 ">
       <div className="flex justify-center bg-white pt-32 fixed top-0 z-30 left-0 right-0">
         <div className="px-48 border-b border-gray-300 gap-8 flex mb-6">
           {tabs.map((tab) => (
