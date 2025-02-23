@@ -25,10 +25,10 @@ export default function PortfolioLayout({ children }) {
   return (
     <div className="mt-14">
       {/* Tabs Bar */}
-      <div className="flex justify-center bg-white pt-32 fixed top-0 z-30 left-0 right-0">
-        <div className="px-48 border-b border-gray-300 gap-8 flex mb-6">
+      <div className="flex justify-center bg-neutral-900 pt-32 fixed top-0 z-30 left-0 right-0 ">
+        <div className="px-48 border-b border-gray-500 gap-8 flex mb-6 animate__animated animate__fadeIn animate__slow">
           {tabs.map((tab) => (
-            <Link key={tab.href} href={tab.href} className={`px-2 sm:px-2 md:px-10  text-4xl font-bold title ${pathname.includes(tab.href) ? "border-b-4 border-neutral-900 text-neutral-900" : "border-b-4 border-white text-neutral-200 hover:text-neutral-900 hover:border-b-4 hover:border-neutral-900 transition"}`}>
+            <Link key={tab.href} href={tab.href} className={`px-2 sm:px-2 md:px-10  text-4xl font-bold title ${pathname.includes(tab.href) ? "border-b-4 border-neutral-400 text-neutral-400" : "border-b-4 border-neutral-900 text-neutral-400 hover:text-neutral-400 hover:border-b-4 hover:border-neutral-400 transition"}`}>
               <FontAwesomeIcon className="w-6 h-6 hidden lg:inline-block me-2 mb-1" icon={tab.icon} />
               {tab.label}
             </Link>
