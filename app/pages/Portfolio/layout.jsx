@@ -12,7 +12,7 @@ export default function PortfolioLayout({ children }) {
   const tabs = [
     { href: "/pages/Portfolio/UXUI", label: "UX/UI", icon: faPalette },
     { href: "/pages/Portfolio/Dev", label: "DEV", icon: faCode },
-    { href: "/pages/Portfolio/Print", label: "PRINT", icon: faPrint },
+    { href: "/pages/Portfolio/Marketing", label: "Marketing", icon: faPrint },
   ];
 
   // Redirect to UX/UI tab by default if the current path is "/pages/Portfolio"
