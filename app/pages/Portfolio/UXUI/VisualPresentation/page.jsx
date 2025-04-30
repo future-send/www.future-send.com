@@ -8,7 +8,7 @@ export default function Page() {
 
   return (
     <div className="mt-40 pb-16 animate__animated animate__fadeIn">
-      <PortfolioSinglePage2Col imgSrc={uxui.imgSrc} />
+      <PortfolioSinglePage2Col title={uxui.title} subtitle={uxui.subtitle} imgSrc={uxui.imgSrc} />
       <div className="mt-4 mx-6 space-y-16 ">
         <div className="grid grid-cols-1 gap-6">
           <div className="border-b border-neutral-400 py-3 px-8 flex flex-row items-center justify-between ">
