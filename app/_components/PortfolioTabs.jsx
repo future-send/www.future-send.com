@@ -10,14 +10,14 @@ export default function PortfolioTabs({ children }) {
   const router = useRouter();
 
   const tabs = [
-    { href: "/pages/Portfolio/UXUI", label: "UX/UI", icon: faPalette },
-    { href: "/pages/Portfolio/Dev", label: "DEV", icon: faCode },
-    { href: "/pages/Portfolio/Print", label: "PRINT", icon: faPrint },
+    { href: "/Portfolio/UXUI", label: "UX/UI", icon: faPalette },
+    { href: "/Portfolio/Dev", label: "DEV", icon: faCode },
+    { href: "/Portfolio/Print", label: "PRINT", icon: faPrint },
   ];
 
   // Redirect to UX/UI by default if no tab is selected
   useEffect(() => {
-    const defaultTab = "/pages/Portfolio/UXUI";
+    const defaultTab = "/Portfolio/UXUI";
     if (!tabs.some((tab) => tab.href === pathname)) {
       router.push(defaultTab);
     }

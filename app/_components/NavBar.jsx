@@ -10,9 +10,9 @@ export default function NavBar() {
 
   const links = [
     { href: "/", label: "Cris" },
-    { href: "/pages/Resume", label: "Resume" },
-    { href: "/pages/Portfolio", label: "Portfolio" },
-    { href: "/pages/Contact", label: "Contact" },
+    { href: "/Resume", label: "Resume" },
+    { href: "/Portfolio", label: "Portfolio" },
+    { href: "/Contact", label: "Contact" },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function NavBar() {
               className={`px-2 text-center ${
                 href === "/"
                   ? "text-neutral-400" // Sempre attivo per "Cris"
-                  : pathname === href || (href === "/pages/Portfolio" && pathname.startsWith("/pages/Portfolio"))
+                  : pathname === href || (href === "/Portfolio" && pathname.startsWith("/Portfolio"))
                   ? "border-b-4 border-neutral-400 text-neutral-400"
                   : "hover:border-b-4 hover:border-neutral-400 transition duration-500"
               }`}>

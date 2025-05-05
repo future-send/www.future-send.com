@@ -10,15 +10,15 @@ export default function PortfolioLayout({ children }) {
   const router = useRouter();
 
   const tabs = [
-    { href: "/pages/Portfolio/UXUI", label: "UX/UI", icon: faPalette },
-    { href: "/pages/Portfolio/Dev", label: "DEV", icon: faCode },
-    { href: "/pages/Portfolio/Marketing", label: "Marketing", icon: faPrint },
+    { href: "/Portfolio/UXUI", label: "UX/UI", icon: faPalette },
+    { href: "/Portfolio/Dev", label: "DEV", icon: faCode },
+    { href: "/Portfolio/Marketing", label: "Marketing", icon: faPrint },
   ];
 
-  // Redirect to UX/UI tab by default if the current path is "/pages/Portfolio"
+  // Redirect to UX/UI tab by default if the current path is "/Portfolio"
   useEffect(() => {
-    if (pathname === "/pages/Portfolio") {
-      router.replace("/pages/Portfolio/UXUI");
+    if (pathname === "/Portfolio") {
+      router.replace("/Portfolio/UXUI");
     }
   }, [pathname, router]);
 

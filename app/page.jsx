@@ -25,10 +25,10 @@ export default function Home() {
           </h3>
 
           <div className="mt-10 flex items-center justify-center gap-x-6 animate__animated  animate__fadeIn animate__slower">
-            <Link href="/pages/Portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">
+            <Link href="/Portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">
               Portfolio
             </Link>
-            <Link href="/pages/Resume" className="text-xl font-semibold text-neutral-400 ">
+            <Link href="/Resume" className="text-xl font-semibold text-neutral-400 ">
               Resume <span aria-hidden="true">→</span>
             </Link>
           </div>
