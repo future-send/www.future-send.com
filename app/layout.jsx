@@ -17,11 +17,11 @@ const bebasNeue = Bebas_Neue({
 export const metadata = {
   title: {
     template: "%s | Cris Delli-Zotti",
-    default: "Cris Delli-Zotti | UX/UI Designer - Front-End Developer",
+    default: "Cris Delli-Zotti | UX/UI Designer - Full-Stack Developer",
   },
 
-  description: "Cris Delli-Zotti | UX/UI Designer - Front-End Developer",
-  applicationName: "UX/UI Designer - Front-End Developer",
+  description: "Cris Delli-Zotti | UX/UI Designer - Full-Stack Developer",
+  applicationName: "UX/UI Designer - Full-Stack Developer",
 };
 
 export default function RootLayout({ children }) {
