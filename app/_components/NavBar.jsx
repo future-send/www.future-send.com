@@ -27,7 +27,7 @@ export default function NavBar() {
               className={`px-2 text-center ${
                 href === "/"
                   ? "text-neutral-400" // Sempre attivo per "Cris"
-                  : pathname === href || (href === "/Portfolio" && pathname.startsWith("/Portfolio"))
+                  : pathname === href || pathname.startsWith(href)
                   ? "border-b-4 border-neutral-400 text-neutral-400"
                   : "hover:border-b-4 hover:border-neutral-400 transition duration-500"
               }`}>
