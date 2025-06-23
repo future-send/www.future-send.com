@@ -20,9 +20,12 @@ export default function Home() {
         <div>
           <h1 className="text-6xl sm:text-8xl md:text-8xl lg:text-8xl xl:text-9xl 2xl:text-[160px] font-bold border-b border-neutral-500 leading-tight tracking-tighter animate__animated animate__fadeInRight ">Cris Delli-Zotti</h1>
           <h3 className="text-neutral-400 text-lg sm:text-xl md:text-2xl font-light mt-6 sm:mt-8 lg:px-12 xl:px-32 animate__animated animate__fadeInLeft">
-            A skilled <span className="font-bold">Front-End Developer</span> with a strong focus on <span className="font-bold">UX/UI design</span> and modern web development. With expertise in <span className="font-bold">React</span>, <span className="font-bold">Next.js</span>, <span className="font-bold">Tailwind</span>, and{" "}
-            <span className="font-bold">Firebase</span>, Cris builds scalable and high-performance web applications. Passionate about design and interactivity, he combines creativity and technology to deliver seamless and engaging digital experiences. 🚀
+          A multidisciplinary professional combining a strong eye for design with <span className="font-bold">Full-Stack development </span> skills. Experienced in crafting user-centered interfaces and building scalable web applications using modern technologies like <span className="font-bold">React</span>, <span className="font-bold">NextJS</span>, <span className="font-bold">Tailwind CSS</span>, <span className="font-bold">NodeJS</span>, and different <span className="font-bold">Open-source Backend-as-a-Service (BaaS)</span> platform. Passionate about creating intuitive, high-performance digital experiences that merge aesthetics with functionality. 🚀
           </h3>
+
+
+
+        
 
           <div className="mt-10 flex items-center justify-center gap-x-6 animate__animated  animate__fadeIn animate__slower">
             <Link href="/Portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">

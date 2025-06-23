@@ -1,5 +1,19 @@
 [
   {
+    "company": "StudioCDZ",
+    "location": "Eureka, MO",
+    "period": "February 2003 - Present",
+    "role": "UX/UI Designer | Full-Stack Developer (Senior)",
+    "responsibilities": [
+      "Develop design concepts for Dynamic Websites, Mobile Apps, Brochures, Cover Designs, Ads, Logos, and Presentations.",
+      "Wireframe and prototype the structure of the project as well as develop the front-end of the sites.",
+      "Monitored projects through all phases of production and coordinated print materials with outside vendors.",
+      "Effective problem solver, quick learner, team player, and leader.",
+      "10 years of extensive experience with HTML5, CSS3, and JavaScript programming.",
+      "20 years of extensive experience in design for Brochures, Invitations, Cover Design, Newsletters, Ads, and Logos."
+    ]
+  },
+  {
     "company": "Arbor Realty Trust",
     "location": "New York, NY",
     "period": "August 2023 - Present",
@@ -33,21 +47,6 @@
       "Meeting tight deadlines with high attention to detail."
     ]
   },
-  {
-    "company": "StudioCDZ",
-    "location": "Eureka, MO",
-    "period": "February 2003 - Present",
-    "role": "UX/UI Designer | Front-End Developer (Senior)",
-    "responsibilities": [
-      "Develop design concepts for Dynamic Websites, Mobile Apps, Brochures, Cover Designs, Ads, Logos, and Presentations.",
-      "Wireframe and prototype the structure of the project as well as develop the front-end of the sites.",
-      "Monitored projects through all phases of production and coordinated print materials with outside vendors.",
-      "Effective problem solver, quick learner, team player, and leader.",
-      "10 years of extensive experience with HTML5, CSS3, and JavaScript programming.",
-      "20 years of extensive experience in design for Brochures, Invitations, Cover Design, Newsletters, Ads, and Logos."
-    ]
-  },
-
   {
     "company": "Maritz",
     "location": "St. Louis, MO",

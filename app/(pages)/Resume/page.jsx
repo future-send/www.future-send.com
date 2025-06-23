@@ -16,7 +16,7 @@ export default function page() {
         </div>
         <div className="basis-3/4 flex-col justify-start content-center">
           <h1 className="text-5xl font-bold tracking-tighter">Cris Delli-Zotti</h1>
-          <h3 className="text-3xl font-bold tracking-tighter">UX/UI Designer | Front-End Developer (Senior)</h3>
+          <h3 className="text-3xl font-bold tracking-tighter">UX/UI Designer | Full-Stack Developer (Senior)</h3>
         </div>
         <div className="basis-2/4 border-l border-neutral-900 ps-6 py-6">
           <h3 className="text-xl font-bold tracking-tighter mt-1">
