@@ -22,8 +22,8 @@ export default function Home() {
             <Link href="/portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">
               Portfolio
             </Link>
-            <Link href="/Resume" className="text-xl font-semibold text-neutral-400">
-              Resume <span aria-hidden="true">→</span>
+            <Link href="/resume" className="text-xl font-semibold text-neutral-400">
+              resume <span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>
