@@ -3,15 +3,15 @@ import Link from "next/link";
 import portfolioData from "../data/portfolioData.js";
 
 export default function PortfolioTabsprintcontent() {
-  const print = portfolioData[0].print;
+  const marketing = portfolioData[0].Marketing;
 
   return (
     <div className="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-6 px-6">
-      {print.map((item, index) => (
+      {marketing.map((item, index) => (
         <div key={index}>
-          <div className="w-full h-48 overflow-hidden transition-transform duration-300 ease-in-out hover:scale-110">
+          <div className="w-full h-48 overflow-hidden transition-transform duration-300 ease-in-out hover:scale-110 rounded-xl">
             <Link href={item.link}>
-              <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full border border-neutral-400" />
+              <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full" />
             </Link>
           </div>
           <h1 className="text-center text-xl tracking-tighter font-bold py-4">
