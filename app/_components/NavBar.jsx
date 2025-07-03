@@ -9,10 +9,10 @@ export default function NavBar() {
   const isHome = pathname === "/";
 
   const links = [
-    { href: "/", label: "Cris" },
-    { href: "/Resume", label: "Resume" },
-    { href: "/Portfolio", label: "Portfolio" },
-    { href: "/Contact", label: "Contact" },
+    { href: "/", label: "Home" },
+    { href: "/resume", label: "Resume" },
+    { href: "/portfolio", label: "Portfolio" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (

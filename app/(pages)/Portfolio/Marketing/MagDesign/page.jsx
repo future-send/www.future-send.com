@@ -6,25 +6,25 @@ import PortfolioSinglePage from "@/app/_components/PortfolioSinglePage.jsx";
 import PortfolioSinglePage3Col from "@/app/_components/PortfolioSinglePage3Col.jsx";
 
 export default function Page() {
-  const print = portfolioData[0].print[2];
+  const marketing = portfolioData[0].Marketing[2];
 
   return (
     <div className="mt-40 pb-16 animate__animated animate__fadeIn">
       <PortfolioSinglePage2Col
-        title={print.title}
-        subtitle={print.subtitle}
-        imgSrc={print.imgSrc.slice(0, 6)} // Passiamo l'array di immagini
+        title={marketing.title}
+        subtitle={marketing.subtitle}
+        imgSrc={marketing.imgSrc.slice(0, 6)} // Passiamo l'array di immagini
       />
 
       <PortfolioSinglePage3Col
-        imgSrc={print.imgSrc.slice(6, 9)} // Passiamo l'array di immagini
+        imgSrc={marketing.imgSrc.slice(6, 9)} // Passiamo l'array di immagini
       />
 
       <PortfolioSinglePage2Col
-        imgSrc={print.imgSrc.slice(9, 11)} // Passiamo l'array di immagini
+        imgSrc={marketing.imgSrc.slice(9, 11)} // Passiamo l'array di immagini
       />
       <PortfolioSinglePage
-        imgSrc={print.imgSrc.slice(11)} // Passiamo l'array di immagini
+        imgSrc={marketing.imgSrc.slice(11)} // Passiamo l'array di immagini
       />
 
       <div className="mt-4 mx-6 space-y-16 ">

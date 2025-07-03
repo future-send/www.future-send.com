@@ -4,14 +4,14 @@ import portfolioData from "../../../../data/portfolioData.js";
 import PortfolioSinglePage3Col from "@/app/_components/PortfolioSinglePage3Col.jsx";
 
 export default function Page() {
-  const print = portfolioData[0].print[1];
+  const marketing = portfolioData[0].Marketing[1];
 
   return (
     <div className="mt-40 pb-16 animate__animated animate__fadeIn">
       <PortfolioSinglePage3Col
-        title={print.title}
-        subtitle={print.subtitle}
-        imgSrc={print.imgSrc} // Passiamo l'array di immagini
+        title={marketing.title}
+        subtitle={marketing.subtitle}
+        imgSrc={marketing.imgSrc} // Passiamo l'array di immagini
       />
 
       <div className="mt-4 mx-6 space-y-16 ">
