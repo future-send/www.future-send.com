@@ -19,10 +19,10 @@ export default function Home() {
             <span className="font-bold uppercase">Tailwind CSS</span>, <span className="font-bold uppercase">NodeJS</span>, and different <span className="font-bold uppercase">Open-source Backend (BaaS)</span> platform. Passionate about creating intuitive, high-performance digital experiences that merge aesthetics with functionality. 🚀
           </h3>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link href="/portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">
+            <Link href="/Portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500">
               Portfolio
             </Link>
-            <Link href="/resume" className="text-xl font-semibold text-neutral-400">
+            <Link href="/Resume" className="text-xl font-semibold text-neutral-400">
               resume <span aria-hidden="true">→</span>
             </Link>
           </div>
