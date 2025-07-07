@@ -21,7 +21,7 @@ export default function Home() {
                 Portfolio
               </Link>
               <Link href="/About" className="text-xl font-semibold text-neutral-400">
-                About <span aria-hidden="true">→</span>
+                About Me <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
