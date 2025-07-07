@@ -9,7 +9,7 @@ export default function DescriptionSection() {
       <div className="flex flex-col mb-20 lg:flex-row items-start sm:px-0 md:px-8">
         <h1 className="text-2xl sm:mb-2 leading-9 font-light tracking-tight sm:pb-2 md:pb-0 flex-1 ">
           I’m a multidisciplinary digital professional with more than two decades of experience designing, developing, and delivering innovative user-centered web experiences. My work sits at the intersection of design precision and code performance, enabling me to bridge creative vision with full technical execution. From early-stage conceptualization to
-          full deployment, I lead and contribute to projects across UX/UI design, front-end development, and scalable back-end architecture."
+          full deployment, I lead and contribute to projects across UX/UI design, front-end development, and scalable back-end architecture.
         </h1>
       </div>
 
