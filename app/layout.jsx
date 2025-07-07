@@ -1,6 +1,8 @@
 import { Roboto_Condensed, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import NavBar from "./_components/NavBar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ["latin"],
@@ -30,6 +32,8 @@ export default function RootLayout({ children }) {
       <body className="bg-neutral-900 text-neutral-400">
         <NavBar />
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
