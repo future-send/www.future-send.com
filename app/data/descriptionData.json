@@ -1,0 +1,30 @@
+[
+  {
+    "section": "UX/UI & Product Design Expertise",
+    "description": "My foundation is in human-centered design, and I have led UX efforts for complex web platforms and business-critical systems. I design thoughtful user journeys, wireframes, interactive prototypes, and responsive design systems using tools like Figma, Adobe XD, Sketch, and InVision. Whether creating enterprise dashboards or marketing microsites, I prioritize accessibility (WCAG standards), clarity, and usability. I understand how design translates into scalable interfaces and maintain a strong focus on systems thinking, design consistency, and intuitive interaction patterns.",
+    "titleList": "Core design skills include:",
+    "list": ["UX strategy & information architecture", "Wireframing, low- and high-fidelity prototyping", "Responsive, mobile-first UI design", "Accessibility (a11y) best practices", "Branding, typography, layout design", "Visual design for web and print"]
+  },
+
+  {
+    "section": "Front-End Development Mastery",
+    "description": "I bring pixel-perfect designs to life using clean, performant front-end code. I specialize in semantic HTML5, modern CSS3 (including SASS/SCSS, CSS Modules, and Tailwind CSS), and powerful JavaScript frameworks such as React, Next.js, Vue, and Angular. My front-end builds are responsive, accessible, component-based, and SEO-optimized. I’m experienced with animation (GSAP, Framer Motion), and performance tooling like Lighthouse, Chrome DevTools, and Webpack optimizations.",
+    "titleList": "Front-end tools and technologies:",
+    "list": ["HTML5, CSS3, Flexbox, Grid", "Tailwind CSS, Bootstrap, Styled Components", "JavaScript (ES6+), TypeScript", "React, Next.js, Vue, Angular", "Headless CMS (Sanity, Strapi, Contentful)", "WordPress theme development with PHP"]
+  },
+  {
+    "section": "Full-Stack Development Capabilities",
+    "description": "Beyond the UI, I architect and implement full-stack applications with REST APIs, secure authentication flows, and modern databases. I use Node.js, Express, and occasionally Python/Django or Ruby on Rails for backend logic, along with MongoDB, PostgreSQL, or Firebase for storage. I’m experienced in deploying apps using Vercel, Netlify, and Heroku, and I manage version control with Git/GitHub across collaborative workflows.",
+    "titleList": "Full-stack competencies:",
+    "list": ["Node.js, Express.js", "Python, Django", "Firebase, Supabase, MongoDB, PostgreSQL", "REST APIs, GraphQL, Axios, authentication flows", "Git, GitHub, GitLab CI/CD pipelines", "Deployment via Vercel, Netlify, Heroku, and cPanel"]
+  },
+  {
+    "section": "Other Technical Strengths",
+    "description": "I’ve worked extensively in corporate and agency environments, often as a lead or senior contributor, delivering both creative and technical assets under tight deadlines. My print design background (InDesign, Illustrator, Photoshop) gives me an edge when developing cohesive branding across digital and print. I’m also comfortable integrating third-party tools such as Calendly, Google Calendar APIs, Stripe for payments, and CRM systems."
+  },
+  {
+    "section": "How I Work",
+    "description": "I am detail-oriented, proactive, and focused on clarity—both in communication and in code. My process is collaborative and user-focused, ensuring business goals align with the end-user experience. I thrive in cross-functional teams, take ownership of complex features, and enjoy mentoring junior designers and developers.",
+    "conclusion": "In summary, I offer a rare combination of visual design expertise and full technical implementation—delivering complete, scalable, and user-first digital solutions. Whether you need to design a product from scratch, refactor a front-end, or develop a high-performance full-stack application, I can bring your vision to life from start to finish."
+  }
+]

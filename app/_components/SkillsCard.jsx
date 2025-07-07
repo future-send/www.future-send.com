@@ -9,12 +9,12 @@ export default function SkillsCard() {
         <div key={categoryIndex}>
           {/* Categoria */}
 
-          <div className="border-b border-neutral-500 mb-6 flex flex-col lg:flex-row items-start">
+          <div className="border-b border-neutral-500 mb-6 flex flex-col lg:flex-row items-start sm:px-0 md:px-8">
             <h1 className="text-4xl font-bold tracking-tighter flex-1 mb-2">{category.category}</h1>
           </div>
 
           {/* Skill List */}
-          <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 sm:px-0 md:px-8">
             {category.skills.map((skill, index) => (
               <div key={index} className="border-b border-neutral-900 pt-4 pb-2 px-4 flex flex-row items-center justify-between">
                 {/* Logo e Nome della Skill */}
