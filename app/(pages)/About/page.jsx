@@ -2,10 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import ExperienceSection from "@/app/_components/ExperienceSection";
 import SkillsSection from "@/app/_components/SkillsSection";
-import EducationSection from "@/app/_components/EducationSection";
 import Link from "next/link";
+import DescriptionSection from "@/app/_components/DescriptionSection";
 
 export default function page() {
   return (
@@ -41,9 +40,8 @@ export default function page() {
           </h3>
         </div>
       </div>
-      <ExperienceSection />
+      <DescriptionSection />
       <SkillsSection />
-      <EducationSection />
     </div>
   );
 }
