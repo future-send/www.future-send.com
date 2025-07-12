@@ -15,9 +15,12 @@ export default function PortfolioTabsdevcontent() {
                 <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full " />
               </Link>
             </div>
-            <h1 className="text-center text-xl tracking-tighter font-bold py-4">
-              {item.title} <span className="font-light">{item.subtitle}</span>
-            </h1>
+            <div className="flex justify-between items-center border-t border-neutral-600 mt-4 mx-3 px-3 pt-2 pb-4">
+              <h1 className="text-neutral-200 text-xl tracking-tighter font-semibold">
+                {item.title} <span className="font-light">{item.subtitle}</span>
+              </h1>
+              <div className="flex gap-2 text-neutral-400 text-xl h-4">{Array.isArray(item.tools) ? item.tools.map((tool, i) => <img key={i} src={tool} alt={`Tool ${i}`} />) : item.tools && <img src={item.tools} alt="Tool" />}</div>
+            </div>
           </div>
         ))}
       </div>

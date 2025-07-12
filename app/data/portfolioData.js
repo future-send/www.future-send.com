@@ -7,6 +7,7 @@ const portfolioData = [
         link: "/Portfolio/UXUI/Swift",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2024_04_Swift_002.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_003.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_004.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_005.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_001.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
         title: "SAS",
@@ -14,9 +15,10 @@ const portfolioData = [
         link: "/Portfolio/UXUI/SAS",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2022_08_SAS_HOME_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2022_08_SAS_HOME_001.jpg", "https://studiocdz.com/db/ux-ui/websites/2022_08_SAS_HOME_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2022_08_SAS_HOME_003.jpg", "https://studiocdz.com/db/ux-ui/websites/2022_08_SAS_HOME_004.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
-        title: "Alfa romeo",
+        title: "Alfa Romeo",
         subtitle: "| mobile app prototype",
         link: "/Portfolio/UXUI/AlfaRomeo",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2020_07_Alfa_Romeo_001.jpg",
@@ -27,6 +29,7 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Alfa_Romeo_005.jpg",
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Alfa_Romeo_002.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
         title: "Al Basilico",
@@ -40,24 +43,27 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Al_Basilico_005.jpg",
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Al_Basilico_002.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
         title: "Websites",
-        subtitle: "| different projects",
+        subtitle: "| different Portfolio",
         link: "/Portfolio/UXUI/Websites",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2023_07_Arc_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2023_07_Arc_001.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Arc_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Hubles_001.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Hubles_002.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/adobexd.svg"],
       },
       {
         title: "Mobile app",
-        subtitle: "| different projects",
+        subtitle: "| different Portfolio",
         link: "/Portfolio/UXUI/Mobile",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2017_08_Deltek_mobile.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/mobile-app/2017_08_Deltek_mobile.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2017_04_IHG_mobile.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_12_honda.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_12_Acura.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_08_IHG_mobile.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/adobexd.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg"],
       },
       {
         title: "Components",
-        subtitle: "| different projects",
+        subtitle: "| different Portfolio",
         link: "/Portfolio/UXUI/Components",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2025_02_TVapp.jpg",
         imgSrc: [
@@ -73,10 +79,11 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/components/2025_02_SingleProduct.jpg",
           "https://studiocdz.com/db/ux-ui/components/2025_02_ConfirmReservation.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
         title: "Emails",
-        subtitle: "| different projects",
+        subtitle: "| different Portfolio",
         link: "/Portfolio/UXUI/Emails",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2021_06_Jointly_001.jpg",
         imgSrc: [
@@ -89,13 +96,15 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/emails/2011_03_-Lateral-Annnouncement_001.jpg",
           "https://studiocdz.com/db/ux-ui/emails/2014_09_FDAF_001.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg"],
       },
       {
         title: "Visual presentation",
-        subtitle: "| different projects",
+        subtitle: "| different Portfolio",
         link: "/Portfolio/UXUI/VisualPresentation",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2021_11_DT_process_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/visual-presentation/2021_11_DT_process_001.jpg", "https://studiocdz.com/db/ux-ui/visual-presentation/2021_07_EJ_P&I_001.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/sketch.svg"],
       },
     ],
 
@@ -115,13 +124,15 @@ const portfolioData = [
           "https://studiocdz.com/db/dev/web-app/2024_08_Pipeline_007.png",
           "https://studiocdz.com/db/dev/web-app/2024_08_Pipeline_008.png",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/sketch.svg", "https://studiocdz.com/db/tools/tailwind.svg", "https://studiocdz.com/db/tools/next.svg"],
       },
       {
         title: "Arbor Realty Trust",
-        subtitle: " | landing pages - email templates",
+        subtitle: " | landing pages - email temps",
         link: "/Portfolio/Dev/Arbor",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2024_03_Arbor_001.jpg",
         imgSrc: ["https://studiocdz.com/db/dev/websites/2024_03_Arbor_001.jpg", "https://studiocdz.com/db/dev/websites/2024_03_Arbor_002.jpg", "https://studiocdz.com/db/dev/websites/2024_03_Arbor_005.jpg", "https://studiocdz.com/db/dev/emails/2024_03_Arbor_003.jpg", "https://studiocdz.com/db/dev/emails/2024_03_Arbor_004.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/html5.svg", "https://studiocdz.com/db/tools/css3.svg", "https://studiocdz.com/db/tools/wp.svg"],
       },
       {
         title: "Deltek INSIGHT",
@@ -129,10 +140,11 @@ const portfolioData = [
         link: "/Portfolio/Dev/Deltek",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2020_06_Maritz_Deltek_001.jpg",
         imgSrc: ["https://studiocdz.com/db/dev/web-app/2020_06_Maritz_Deltek_001.jpg", "https://studiocdz.com/db/dev/web-app/2020_06_Maritz_Deltek_002.jpg", "https://studiocdz.com/db/dev/web-app/2020_06_Maritz_Deltek_003.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/tailwind.svg", "https://studiocdz.com/db/tools/next.svg"],
       },
       {
         title: "Web App",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Dev/WebApp",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2019_01_Maritz_Toro_005.jpg",
         imgSrc: [
@@ -158,10 +170,11 @@ const portfolioData = [
           "https://studiocdz.com/db/dev/web-app/2015_11_Maritz_Juniper_004.jpg",
           "https://studiocdz.com/db/dev/web-app/2015_11_Maritz_Juniper_005.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/angular.svg", "https://studiocdz.com/db/tools/bootstrap.svg"],
       },
       {
         title: "Website",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Dev/Websites",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2015_04_www.meetmag.com_001.jpg",
         imgSrc: [
@@ -180,18 +193,20 @@ const portfolioData = [
           "https://studiocdz.com/db/dev/websites/2012_02_www.briggs.studiocdz.com_003.jpg",
           "https://studiocdz.com/db/dev/websites/2012_02_www.briggs.studiocdz.com_004.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/angular.svg", "https://studiocdz.com/db/tools/bootstrap.svg"],
       },
 
       {
         title: "RFP (Request for Proposal)",
-        subtitle: " | landing page websites",
+        subtitle: " | landing pages",
         link: "/Portfolio/Dev/RFP",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2014_09_Brotherhood_001.jpg",
         imgSrc: ["https://studiocdz.com/db/dev/websites/2014_09_Brotherhood_001.jpg", "https://studiocdz.com/db/dev/websites/2014_09_Brotherhood_003.jpg", "https://studiocdz.com/db/dev/websites/2019_09_Maritz_IHG.jpg", "https://studiocdz.com/db/dev/websites/2019_09_Maritz_landRover.jpg", "https://studiocdz.com/db/dev/websites/2019_09_Maritz_workHuman.jpg"],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/html5.svg", "https://studiocdz.com/db/tools/css3.svg", "https://studiocdz.com/db/tools/javascript.svg", "https://studiocdz.com/db/tools/bootstrap.svg"],
       },
       {
         title: "WordPress",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Dev/WordPress",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2014_11_Publishing_Concepts_BookStore_001.jpg",
         imgSrc: [
@@ -206,11 +221,12 @@ const portfolioData = [
           "https://studiocdz.com/db/dev/websites/2014_11_Publishing_Concepts_BookStore_002.jpg",
           "https://studiocdz.com/db/dev/websites/2014_11_Publishing_Concepts_BookStore_003.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/wp.svg"],
       },
 
       {
         title: "Email Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Dev/Emails",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2025_02_Arbor_email_001.jpg",
         imgSrc: [
@@ -223,11 +239,12 @@ const portfolioData = [
           "https://studiocdz.com/db/dev/emails/2012_02_Darren-Isaacs_email.jpg",
           "https://studiocdz.com/db/dev/emails/2014_09_FDAF_001.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/html5.svg", "https://studiocdz.com/db/tools/css3.svg"],
       },
     ],
     Marketing: [
       {
-        title: "Edward Jones - Symposium | interactive PDF",
+        title: "Edward Jones - Symposium",
         subtitle: " | interactive PDF",
         link: "/Portfolio/Marketing/EDW",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2021_12_EJ_Symposium_001.jpg",
@@ -245,10 +262,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2021_12_EJ_Symposium_011.jpg",
           "https://studiocdz.com/assets/_img/_print/2022_05_EJ_Onboarding_012.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Cover Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/CoverDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2014_01_Edward%20Jones%20spring%20catalog_002.jpg",
         imgSrc: [
@@ -261,10 +279,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2004_10_Paramedic_002.jpg",
           "https://studiocdz.com/assets/_img/_print/2016_03_Route%2066_003.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Magazine Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/MagDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2015_03_MME_Spring_001.jpg",
         imgSrc: [
@@ -281,10 +300,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2000_02_Mobil_002.jpg",
           "https://studiocdz.com/assets/_img/_print/2000_02_Mobil_003.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Brochure Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/BrochureDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2015_04_Osage_Nation_003.jpg",
         imgSrc: [
@@ -301,10 +321,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2000_07_DiTrani_006.jpg",
           "https://studiocdz.com/assets/_img/_print/2000_07_DiTrani_005.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Logo Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/LogoDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2017_06_Gran%20Vin.jpg",
         imgSrc: [
@@ -318,10 +339,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2018_Groovy%20Galas.jpg",
           "https://studiocdz.com/assets/_img/_print/2011_04%20logo%20SwwetHearts.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Advertisment Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/AdsDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2014_07_Greensfelder_ad_001.jpg",
         imgSrc: [
@@ -332,10 +354,11 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2008_10_BLSA%20Dinner%20Ad_001.jpg",
           "https://studiocdz.com/assets/_img/_print/2011_11_7th%20Annual%20Poker%20Event_002.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
       {
         title: "Postcard Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/PostcardDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2007_03_Loyola_breakfast.jpg",
         imgSrc: [
@@ -348,11 +371,12 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2007_02_NAPL_001.jpg",
           "https://studiocdz.com/assets/_img/_print/2007_02_NAPL_002.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
 
       {
         title: "T-shirt Design",
-        subtitle: " | different projects",
+        subtitle: " | different Portfolio",
         link: "/Portfolio/Marketing/TshirtDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2010_05_Chase%20Corporate%20Challenge%20t-shirt_002.jpg",
         imgSrc: [
@@ -361,6 +385,7 @@ const portfolioData = [
           "https://studiocdz.com/assets/_img/_print/2013_08_For%20a%20Greener%20Game_003.jpg",
           "https://studiocdz.com/assets/_img/_print/2003_08_RedRaiders_001.jpg",
         ],
+        tools: ["https://studiocdz.com/db/tools/adobeillustrator.svg", "https://studiocdz.com/db/tools/adobephotoshop.svg", "https://studiocdz.com/db/tools/adobeindesign.svg"],
       },
     ],
   },
