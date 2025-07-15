@@ -41,7 +41,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <div className="container mx-auto mt-40 px-8 lg:px-24  animate__animated animate__fadeIn">
+      <div className="container mx-auto mt-40 mb-36 px-8 lg:px-24  animate__animated animate__fadeIn">
         <h1 className="text-5xl font-bold title">Get In Touch</h1>
         <form onSubmit={handleSubmit} className=" space-y-6 mt-10 mb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-3">

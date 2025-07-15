@@ -16,13 +16,13 @@ export default function DescriptionSection() {
       {descriptionData.map((description, index) => (
         <div key={index} className="mb-24">
           <div className="border-b border-neutral-500  mb-8 flex flex-col lg:flex-row items-start sm:px-0 md:px-8">
-            <h1 className="text-4xl sm:mb-2   font-bold tracking-tighter sm:pb-2 md:pb-0 flex-1 ">{description.section}</h1>
+            <h1 className="text-4xl sm:mb-2 text-neutral-300  font-bold tracking-tighter sm:pb-2 md:pb-0 flex-1 ">{description.section}</h1>
           </div>
 
           <h2 className="font-light text-2xl tracking-tight mt-4 mb-2 sm:px-0 md:px-8 leading-9">{description.description}</h2>
 
           {/* Title for the list (optional) */}
-          {description.titleList && <h3 className="font-semibold text-2xl mt-6 mb-2 sm:px-0 md:px-8">{description.titleList}</h3>}
+          {description.titleList && <h3 className="font-semibold text-neutral-300 text-2xl mt-6 mb-2 sm:px-0 md:px-8">{description.titleList}</h3>}
 
           {/* List rendering if exists */}
           {description.list && (

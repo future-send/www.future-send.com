@@ -3,6 +3,8 @@ import "./globals.css";
 import NavBar from "./_components/NavBar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import Hero from "./_components/Hero";
+import Footer from "./_components/Footer";
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ["latin"],
@@ -29,9 +31,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-neutral-900 text-neutral-400">
+      <body className="bg-neutral-900 text-neutral-400 ">
+        <Hero />
         <NavBar />
         {children}
+        <Footer />
         <SpeedInsights />
         <Analytics />
       </body>
