@@ -23,6 +23,10 @@
     "description": "I’ve worked extensively in corporate and agency environments, often as a lead or senior contributor, delivering both creative and technical assets under tight deadlines. My print design background (InDesign, Illustrator, Photoshop) gives me an edge when developing cohesive branding across digital and print. I’m also comfortable integrating third-party tools such as Calendly, Google Calendar APIs, Stripe for payments, and CRM systems."
   },
   {
+    "section": "AI-Assisted Workflow & Innovation",
+    "list": ["AI-Driven Design Ideation", "Prompt Engineering & Content Automation", "AI-Enhanced Development Workflows", "Process Optimization & Automation"]
+  },
+  {
     "section": "How I Work",
     "description": "I am detail-oriented, proactive, and focused on clarity—both in communication and in code. My process is collaborative and user-focused, ensuring business goals align with the end-user experience. I thrive in cross-functional teams, take ownership of complex features, and enjoy mentoring junior designers and developers.",
     "conclusion": "In summary, I offer a rare combination of visual design expertise and full technical implementation—delivering complete, scalable, and user-first digital solutions. Whether you need to design a product from scratch, refactor a front-end, or develop a high-performance full-stack application, I can bring your vision to life from start to finish."

@@ -17,8 +17,8 @@ export default function NavBar() {
 
   return (
     <nav
-      className={`w-full pt-14 flex justify-center items-center text-neutral-400 text-2xl fixed top-0 left-0 right-0 z-50 animate__animated  animate__fadeIn animate__slower 
-    ${isHome ? "bg-transparent" : "bg-neutral-900"} `}>
+      className={`w-full pt-14 pb-6 flex justify-center items-center text-neutral-400 text-2xl fixed top-0 left-0 right-0 z-50 animate__animated  animate__fadeIn animate__slower 
+    bg-neutral-900/90 `}>
       <ul className="flex flex-row justify-center border-b border-neutral-400 gap-0 sm:gap-5 px-2 sm:px-6">
         {links.map(({ href, label }) => (
           <li key={href}>

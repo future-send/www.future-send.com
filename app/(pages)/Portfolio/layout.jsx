@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette, faCode, faPrint } from "@fortawesome/free-solid-svg-icons";
 import BackButton from "@/app/_components/BackButton";
+import ProjectNavigation from "@/app/_components/ProjectNavigation";
 
 export default function PortfolioLayout({ children }) {
   const pathname = usePathname();
@@ -37,11 +38,14 @@ export default function PortfolioLayout({ children }) {
               {tab.label}
             </Link>
           ))}
+          <div className="absolute right-[0%] top-2">
+            <ProjectNavigation />
+          </div>
         </div>
       </div>
 
       {/* Page Content */}
-      <div className="mt-56 mb-16 container mx-auto">{children}</div>
+      <div className="mt-56 mb-24 container mx-auto">{children}</div>
     </div>
   );
 }

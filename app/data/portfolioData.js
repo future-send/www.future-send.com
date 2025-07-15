@@ -47,7 +47,7 @@ const portfolioData = [
       },
       {
         title: "Websites",
-        subtitle: "| different Portfolio",
+        subtitle: "| different projects",
         link: "/Portfolio/UXUI/Websites",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2023_07_Arc_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2023_07_Arc_001.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Arc_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Hubles_001.jpg", "https://studiocdz.com/db/ux-ui/websites/2023_07_Hubles_002.jpg"],
@@ -55,7 +55,7 @@ const portfolioData = [
       },
       {
         title: "Mobile app",
-        subtitle: "| different Portfolio",
+        subtitle: "| different projects",
         link: "/Portfolio/UXUI/Mobile",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2017_08_Deltek_mobile.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/mobile-app/2017_08_Deltek_mobile.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2017_04_IHG_mobile.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_12_honda.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_12_Acura.jpg", "https://studiocdz.com/db/ux-ui/mobile-app/2015_08_IHG_mobile.jpg"],
@@ -63,7 +63,7 @@ const portfolioData = [
       },
       {
         title: "Components",
-        subtitle: "| different Portfolio",
+        subtitle: "| different projects",
         link: "/Portfolio/UXUI/Components",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2025_02_TVapp.jpg",
         imgSrc: [
@@ -83,7 +83,7 @@ const portfolioData = [
       },
       {
         title: "Emails",
-        subtitle: "| different Portfolio",
+        subtitle: "| different projects",
         link: "/Portfolio/UXUI/Emails",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2021_06_Jointly_001.jpg",
         imgSrc: [
@@ -100,7 +100,7 @@ const portfolioData = [
       },
       {
         title: "Visual presentation",
-        subtitle: "| different Portfolio",
+        subtitle: "| different projects",
         link: "/Portfolio/UXUI/VisualPresentation",
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2021_11_DT_process_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/visual-presentation/2021_11_DT_process_001.jpg", "https://studiocdz.com/db/ux-ui/visual-presentation/2021_07_EJ_P&I_001.jpg"],
@@ -144,7 +144,7 @@ const portfolioData = [
       },
       {
         title: "Web App",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Dev/WebApp",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2019_01_Maritz_Toro_005.jpg",
         imgSrc: [
@@ -174,7 +174,7 @@ const portfolioData = [
       },
       {
         title: "Website",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Dev/Websites",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2015_04_www.meetmag.com_001.jpg",
         imgSrc: [
@@ -206,7 +206,7 @@ const portfolioData = [
       },
       {
         title: "WordPress",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Dev/WordPress",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2014_11_Publishing_Concepts_BookStore_001.jpg",
         imgSrc: [
@@ -226,7 +226,7 @@ const portfolioData = [
 
       {
         title: "Email Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Dev/Emails",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2025_02_Arbor_email_001.jpg",
         imgSrc: [
@@ -266,7 +266,7 @@ const portfolioData = [
       },
       {
         title: "Cover Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/CoverDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2014_01_Edward%20Jones%20spring%20catalog_002.jpg",
         imgSrc: [
@@ -283,7 +283,7 @@ const portfolioData = [
       },
       {
         title: "Magazine Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/MagDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2015_03_MME_Spring_001.jpg",
         imgSrc: [
@@ -304,7 +304,7 @@ const portfolioData = [
       },
       {
         title: "Brochure Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/BrochureDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2015_04_Osage_Nation_003.jpg",
         imgSrc: [
@@ -325,7 +325,7 @@ const portfolioData = [
       },
       {
         title: "Logo Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/LogoDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2017_06_Gran%20Vin.jpg",
         imgSrc: [
@@ -343,7 +343,7 @@ const portfolioData = [
       },
       {
         title: "Advertisment Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/AdsDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2014_07_Greensfelder_ad_001.jpg",
         imgSrc: [
@@ -358,7 +358,7 @@ const portfolioData = [
       },
       {
         title: "Postcard Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/PostcardDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2007_03_Loyola_breakfast.jpg",
         imgSrc: [
@@ -376,7 +376,7 @@ const portfolioData = [
 
       {
         title: "T-shirt Design",
-        subtitle: " | different Portfolio",
+        subtitle: " | different projects",
         link: "/Portfolio/Marketing/TshirtDesign",
         imgThumb: "https://studiocdz.com/assets/_img/_print/thumb-assets/2010_05_Chase%20Corporate%20Challenge%20t-shirt_002.jpg",
         imgSrc: [
