@@ -99,7 +99,7 @@ export default function ContactForm() {
               {loading ? "Sending..." : "SEND IT"}
             </button>
             {/* Messaggio di feedback */}
-            {feedbackMessage && <p className={`mt-4 text-lg ${feedbackMessage === "Message sent successfully!" ? "text-green-500" : "text-red-500"}`}>{feedbackMessage}</p>}{" "}
+            {feedbackMessage && <p className={`mt-4 text-lg ${feedbackMessage === "Message sent successfully!" ? "text-green-500" : "text-red-500"}`}>{feedbackMessage}</p>}
           </div>
         </form>
       </div>
