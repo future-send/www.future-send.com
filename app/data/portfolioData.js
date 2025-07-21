@@ -8,6 +8,8 @@ const portfolioData = [
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2024_04_Swift_002.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_003.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_004.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_005.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_001.jpg"],
         tools: ["https://studiocdz.com/db/tools/figma.svg"],
+        hasPreview: true,
+        preview: "https://www.figma.com/proto/9wPcaE71GTWD2PN5bQhOX6/Swift-Passport-Sitemap?page-id=86%3A1618&node-id=86-3051&viewport=38%2C1283%2C0.31&t=o4iz5jyyUaut9uHW-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=86%3A3051&hide-ui=1",
       },
       {
         title: "SAS",
@@ -30,6 +32,8 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Alfa_Romeo_002.jpg",
         ],
         tools: ["https://studiocdz.com/db/tools/figma.svg"],
+        hasPreview: true,
+        preview: "https://www.figma.com/proto/qyi2ULzbHWeei7NfIvzihE/Prototype?page-id=0%3A1&node-id=20-84726&p=f&viewport=66%2C61%2C0.46&t=X0SEt9ujaycWzgxy-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1&hide-ui=1",
       },
       {
         title: "Al Basilico",
@@ -44,6 +48,8 @@ const portfolioData = [
           "https://studiocdz.com/db/ux-ui/mobile-app/2020_07_Al_Basilico_002.jpg",
         ],
         tools: ["https://studiocdz.com/db/tools/figma.svg"],
+        hasPreview: true,
+        preview: "https://www.figma.com/proto/eZbTMsnzNQB50V6U7ObQlH/Mobile-App?page-id=0%3A1&node-id=1-2&viewport=724%2C627%2C0.39&t=1txf0FTOc5bcuf52-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&hide-ui=1",
       },
       {
         title: "Websites",
@@ -105,6 +111,8 @@ const portfolioData = [
         imgThumb: "https://studiocdz.com/db/ux-ui/_thumb/2021_11_DT_process_001.jpg",
         imgSrc: ["https://studiocdz.com/db/ux-ui/visual-presentation/2021_11_DT_process_001.jpg", "https://studiocdz.com/db/ux-ui/visual-presentation/2021_07_EJ_P&I_001.jpg"],
         tools: ["https://studiocdz.com/db/tools/figma.svg", "https://studiocdz.com/db/tools/sketch.svg"],
+        hasPreview: true,
+        preview: "https://www.figma.com/proto/klX1WI7i6z1IAXIhYyHSMr/The-Design-Thinking-Manifesto?page-id=0%3A1&node-id=5-12&viewport=793%2C377%2C0.1&t=8aZVG2sIVSHF6w98-8&scaling=contain&content-scaling=fixed&starting-point-node-id=5%3A12&hide-ui=1",
       },
     ],
 
@@ -128,7 +136,7 @@ const portfolioData = [
       },
       {
         title: "Arbor Realty Trust",
-        subtitle: " | landing pages - email temps",
+        subtitle: " | landing pages - email",
         link: "/Portfolio/Dev/Arbor",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2024_03_Arbor_001.jpg",
         imgSrc: ["https://studiocdz.com/db/dev/websites/2024_03_Arbor_001.jpg", "https://studiocdz.com/db/dev/websites/2024_03_Arbor_002.jpg", "https://studiocdz.com/db/dev/websites/2024_03_Arbor_005.jpg", "https://studiocdz.com/db/dev/emails/2024_03_Arbor_003.jpg", "https://studiocdz.com/db/dev/emails/2024_03_Arbor_004.jpg"],
