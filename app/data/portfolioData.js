@@ -9,7 +9,7 @@ const portfolioData = [
         imgSrc: ["https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_002.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_003.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_004.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_005.jpg", "https://studiocdz.com/db/ux-ui/websites/2024_04_Swift_001.jpg"],
         tools: ["https://studiocdz.com/db/tools/figma.svg"],
         hasPreview: true,
-        preview: "https://www.figma.com/proto/9wPcaE71GTWD2PN5bQhOX6/Swift-Passport-Sitemap?page-id=86%3A1618&node-id=86-3051&viewport=38%2C1283%2C0.31&t=o4iz5jyyUaut9uHW-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=86%3A3051&hide-ui=1",
+        preview: "https://www.figma.com/proto/9wPcaE71GTWD2PN5bQhOX6/Swift-Passport-Sitemap?page-id=86%3A1618&node-id=86-3051&viewport=34%2C913%2C0.2&t=9wXdtImamZzO4vBy-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=86%3A3051&hide-ui=1",
       },
       {
         title: "SAS",
@@ -33,7 +33,7 @@ const portfolioData = [
         ],
         tools: ["https://studiocdz.com/db/tools/figma.svg"],
         hasPreview: true,
-        preview: "https://www.figma.com/proto/qyi2ULzbHWeei7NfIvzihE/Prototype?page-id=0%3A1&node-id=20-84726&p=f&viewport=66%2C61%2C0.46&t=X0SEt9ujaycWzgxy-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1&hide-ui=1",
+        preview: "https://www.figma.com/proto/qyi2ULzbHWeei7NfIvzihE/Prototype?page-id=0%3A1&node-id=20-84726&p=f&viewport=52%2C99%2C0.31&t=hCMHQFVBJXWMPS5Y-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1&hide-ui=1",
       },
       {
         title: "Al Basilico",
@@ -205,7 +205,7 @@ const portfolioData = [
       },
 
       {
-        title: "RFP (Request for Proposal)",
+        title: "RFP",
         subtitle: " | landing pages",
         link: "/Portfolio/Dev/RFP",
         imgThumb: "https://studiocdz.com/db/dev/_thumb/2014_09_Brotherhood_001.jpg",
