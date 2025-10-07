@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { db } from "../../firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -12,7 +12,7 @@ export default function ContactForm() {
   });
 
   const [loading, setLoading] = useState(false);
-  const [feedbackMessage, setFeedbackMessage] = useState(""); // Stato per il messaggio di feedback
+  const [feedbackMessage, setFeedbackMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,84 +25,90 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setFeedbackMessage(""); // Resetta il messaggio prima di un nuovo invio
+    setFeedbackMessage("");
 
     try {
-      await addDoc(collection(db, "contacts"), formData);
-      setFeedbackMessage("Message sent successfully!"); // Messaggio di successo
-      setFormData({ name: "", email: "", message: "" }); // Reset form
+      await addDoc(collection(db, "contacts"), {
+        ...formData,
+        createdAt: serverTimestamp(), // aggiunge la data/ora di invio
+      });
+
+      setFeedbackMessage("Message sent successfully!");
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error adding document: ", error);
-      setFeedbackMessage("Failed to send the message."); // Messaggio di errore
+      setFeedbackMessage("Failed to send the message.");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <>
-      <div className="container mx-auto mt-40 mb-36 px-8 lg:px-24  animate__animated animate__fadeIn">
-        <h1 className="text-5xl font-bold title">Get In Touch</h1>
-        <form onSubmit={handleSubmit} className=" space-y-6 mt-10 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-3">
-            {/* Name Field */}
-            <div>
-              <label htmlFor="name" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            {/* Email Field */}
-            <div>
-              <label htmlFor="email" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-          </div>
-          {/* Message Field */}
+    <div className="container mx-auto mt-40 mb-36 px-8 lg:px-24 animate__animated animate__fadeIn">
+      <h1 className="text-5xl font-bold title">Get In Touch</h1>
+      <form onSubmit={handleSubmit} className="space-y-6 mt-10 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-3">
+          {/* Name */}
           <div>
-            <label htmlFor="message" className="block text-lg font-light mt-8 ms-5 mb-3 text-neutral-400 ">
-              Message
+            <label htmlFor="name" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
+              Name
             </label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
               onChange={handleChange}
-              rows="5"
-              className="text-xl bg-neutral-300 text-neutral-900 placeholder:text-neutral-500/45 font-light mt-1 w-full px-5 py-4 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-500/45"
-              placeholder="Your Message"
-              required></textarea>
+              className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
+              placeholder="Your Name"
+              required
+            />
           </div>
-          {/* Submit Button */}
-          <div className="flex flex-col items-center">
-            <button type="submit" disabled={loading} className={`px-6 py-3 w-full text-xl font-bold text-neutral-900 ${loading ? "bg-neutral-400" : "bg-neutral-300 hover:bg-neutral-100 hover:text-neutral-900"} rounded-xl transition duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500`}>
-              {loading ? "Sending..." : "SEND IT"}
-            </button>
-            {/* Messaggio di feedback */}
-            {feedbackMessage && <p className={`mt-4 text-lg ${feedbackMessage === "Message sent successfully!" ? "text-green-500" : "text-red-500"}`}>{feedbackMessage}</p>}
+
+          {/* Email */}
+          <div>
+            <label htmlFor="email" className="block text-lg font-light ms-5 mb-2 text-neutral-400">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="text-xl text-neutral-900 bg-neutral-300 placeholder:text-neutral-500/45 font-light mt-1 w-full h-14 px-4 py-2 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-200/45"
+              placeholder="Your Email"
+              required
+            />
           </div>
-        </form>
-      </div>
-    </>
+        </div>
+
+        {/* Message */}
+        <div>
+          <label htmlFor="message" className="block text-lg font-light mt-8 ms-5 mb-3 text-neutral-400">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            rows={5}
+            className="text-xl bg-neutral-300 text-neutral-900 placeholder:text-neutral-500/45 font-light mt-1 w-full px-5 py-4 border border-neutral-400 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-neutral-500/45"
+            placeholder="Your Message"
+            required
+          />
+        </div>
+
+        {/* Submit */}
+        <div className="flex flex-col items-center">
+          <button type="submit" disabled={loading} className={`px-6 py-3 w-full text-xl font-bold text-neutral-900 ${loading ? "bg-neutral-400" : "bg-neutral-300 hover:bg-neutral-100 hover:text-neutral-900"} rounded-xl transition duration-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500`}>
+            {loading ? "Sending..." : "SEND IT"}
+          </button>
+
+          {feedbackMessage && <p className={`mt-4 text-lg ${feedbackMessage === "Message sent successfully!" ? "text-green-500" : "text-red-500"}`}>{feedbackMessage}</p>}
+        </div>
+      </form>
+    </div>
   );
 }
