@@ -14,7 +14,7 @@ export default function Home() {
               <h3 className="text-neutral-400 text-lg sm:text-xl lg:text-xl xl:text-2xl  font-light mt-6 sm:mt-8 lg:px-11 xl:px-24">
                 A multidisciplinary professional combining a strong eye for <span className="font-bold uppercase">UX/UI design</span> with <span className="font-bold uppercase">Full-Stack development</span> skills. Experienced in crafting user-centered interfaces and building scalable web applications using modern technologies like <span> </span>
                 <span className="font-bold uppercase">React</span>, <span className="font-bold uppercase">NextJS</span>,<span> </span>
-                <span className="font-bold uppercase">Tailwind CSS</span>, <span className="font-bold uppercase">NodeJS</span>, and different <span className="font-bold uppercase">Open-source Backend (BaaS)</span> platform. Passionate about creating intuitive, high-performance digital experiences that merge aesthetics with functionality. 🚀
+                <span className="font-bold uppercase">Tailwind CSS</span>, <span className="font-bold uppercase">NodeJS</span>, and different <span className="font-bold uppercase">Open-source Backend (BaaS)</span> platform. Passionate about creating intuitive, high-performance digital experiences that merge aesthetics with functionality.
               </h3>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link href="/Portfolio" className="rounded-md bg-neutral-400 px-5 py-2.5 text-xl font-semibold text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition duration-500 min-w-36">
