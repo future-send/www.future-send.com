@@ -164,7 +164,7 @@ const portfolioData = [
           "https://www.db.studiocdz.com/dev/web-app/2024_08_Pipeline_007.png",
           "https://www.db.studiocdz.com/dev/web-app/2024_08_Pipeline_008.png",
         ],
-        tools: ["https://www.db.studiocdz.com/tools/figma.svg", "https://www.db.studiocdz.com/tools/sketch.svg", "https://www.db.studiocdz.com/tools/tailwind.svg", "https://www.db.studiocdz.com/tools/next.svg"],
+        tools: ["https://www.db.studiocdz.com/tools/figma.svg", "https://www.db.studiocdz.com/tools/react.svg", "https://www.db.studiocdz.com/tools/tailwind.svg", "https://www.db.studiocdz.com/tools/next.svg"],
       },
       {
         title: "Arbor Realty Trust",

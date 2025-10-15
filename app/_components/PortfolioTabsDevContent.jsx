@@ -11,7 +11,7 @@ export default function PortfolioTabsdevcontent() {
   // Primo progetto come "featured"
   const featureDev = portfolioData[0].featureDev[0];
   // Resto dei progetti
-  const remainingProjects = dev.slice(1);
+  const remainingProjects = dev.slice(0);
 
   return (
     <>
