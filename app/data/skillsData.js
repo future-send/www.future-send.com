@@ -28,28 +28,18 @@ const skillsData = [
         rating: "★ ★ ★ ★ ☆",
       },
       {
-        name: "CSS3 (SASS-LESS)",
-        logo: "/skills/css3.svg",
-        rating: "★ ★ ★ ★ ☆",
-      },
-      {
-        name: "Tailwind",
-        logo: "/skills/css3.svg",
-        rating: "★ ★ ★ ★ ☆",
-      },
-      {
-        name: "Bootstrap",
-        logo: "/skills/css3.svg",
-        rating: "★ ★ ★ ★ ☆",
-      },
-      {
         name: "JavaScript",
         logo: "/skills/javascript.svg",
         rating: "★ ★ ★ ★ ☆",
       },
       {
-        name: "React (NextJS)",
+        name: "React",
         logo: "/skills/react.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "Next js",
+        logo: "/skills/next.svg",
         rating: "★ ★ ★ ★ ☆",
       },
       {
@@ -65,6 +55,31 @@ const skillsData = [
       {
         name: "WordPress (PHP)",
         logo: "/skills/wp.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "CSS3 (SASS-LESS)",
+        logo: "/skills/css3.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "Tailwind",
+        logo: "/skills/css3.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "GSAP",
+        logo: "/skills/gsap.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "Shadcn/ui",
+        logo: "/skills/shadcn.svg",
+        rating: "★ ★ ★ ★ ☆",
+      },
+      {
+        name: "Bootstrap",
+        logo: "/skills/css3.svg",
         rating: "★ ★ ★ ★ ☆",
       },
     ],
