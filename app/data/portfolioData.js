@@ -128,6 +128,26 @@ const portfolioData = [
       },
     ],
 
+    featureDev: [
+      {
+        title: "Volt Energy",
+        subtitle: " | web app",
+        link: "/Portfolio/Dev/VoltEnergy",
+        url: "https://www-voltenergy-com.vercel.app/",
+        github: "https://github.com/studiocdz/www.voltenergy.com",
+        imgThumb: "https://www.db.studiocdz.com/dev/_thumb/2025_10_Volt_001.jpg",
+        imgSrc: [
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_001.jpg",
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_002.jpg",
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_003.jpg",
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_004.jpg",
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_005.jpg",
+          "https://www.db.studiocdz.com/dev/web-app/2025_10_Volt_006.jpg",
+        ],
+        tools: ["https://www.db.studiocdz.com/tools/next.svg", "https://www.db.studiocdz.com/tools/tailwind.svg", "https://www.db.studiocdz.com/tools/shadcn.svg", "https://www.db.studiocdz.com/tools/gsap.svg", "https://www.db.studiocdz.com/tools/figma.svg"],
+      },
+    ],
+
     dev: [
       {
         title: "Pipeline",
@@ -313,15 +333,28 @@ const portfolioData = [
         link: "/Portfolio/Marketing/MagDesign",
         imgThumb: "https://www.db.studiocdz.com/print/_thumb/2015_03_MME_Spring_001.jpg",
         imgSrc: [
+          "https://www.db.studiocdz.com/print/magazine-design/2025_10_Arbor_SFR_001.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_10_Arbor_SFR_003.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_10_Arbor_SFR_004.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_10_Arbor_SFR_002.webp",
+
+          "https://www.db.studiocdz.com/print/magazine-design/2025_04_MEET_001.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_04_MEET_002.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_04_MEET_003.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_04_MEET_004.webp",
+          "https://www.db.studiocdz.com/print/magazine-design/2025_04_MEET_005.webp",
+
+          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_002.jpg",
+          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_004.jpg",
+          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_005.jpg",
+
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_001.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_002.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_003.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_005.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_006.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2015_03_MME_Spring_004.jpg",
-          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_002.jpg",
-          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_004.jpg",
-          "https://www.db.studiocdz.com/print/magazine-design/2015_04_Osage_Nation_005.jpg",
+
           "https://www.db.studiocdz.com/print/magazine-design/2000_02_Mobil_001.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2000_02_Mobil_002.jpg",
           "https://www.db.studiocdz.com/print/magazine-design/2000_02_Mobil_003.jpg",
