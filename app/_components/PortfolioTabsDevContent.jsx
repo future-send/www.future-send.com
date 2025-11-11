@@ -26,7 +26,7 @@ export default function PortfolioTabsdevcontent() {
             {/* GitHub link */}
             {featureDev.github && (
               <Link href={featureDev.github} target="_blank" rel="noopener noreferrer" className="flex absolute bottom-4 right-11 items-center">
-                <img src="https://www.db.studiocdz.com/tools/gitHub.svg" alt="GitHub" className="h-5 w-5 text-neutral-100 transition-transform duration-300 ease-in-out hover:scale-125" />
+                <img src="https://studiocdz-db.com/studiocdz/tools/gitHub.svg" alt="GitHub" className="h-5 w-5 text-neutral-100 transition-transform duration-300 ease-in-out hover:scale-125" />
               </Link>
             )}
 
