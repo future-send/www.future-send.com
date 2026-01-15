@@ -29,7 +29,7 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-          <p>2025 | Cris Delli-Zotti </p>
+          <p>2026 | Cris Delli-Zotti </p>
         </div>
       </div>
     </footer>
