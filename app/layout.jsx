@@ -19,13 +19,19 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata = {
-  title: {
-    template: "%s | Cris Delli-Zotti",
-    default: "Cris Delli-Zotti | UX/UI Designer - Full-Stack Developer",
+  title: "Cris Delli Zotti | Portfolio",
+  description: "UX/UI Designer & Full-Stack Developer specialized in modern, conversion-focused websites.",
+  openGraph: {
+    title: "Cris Delli Zotti | Portfolio",
+    description: "UX/UI Designer & Full-Stack Developer specialized in modern, conversion-focused websites.",
+    images: [
+      {
+        url: "https://www.crisdellizotti.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
-
-  description: "Cris Delli-Zotti | UX/UI Designer - Full-Stack Developer",
-  applicationName: "UX/UI Designer - Full-Stack Developer",
 };
 
 export default function RootLayout({ children }) {

@@ -61,7 +61,7 @@ export default function Testimonials() {
                 <div className="flex items-center space-x-4 text-left">
                   <div className="relative">
                     <Image src={testimonial.image || "/placeholder.svg"} alt={testimonial.name} width={60} height={60} className="rounded-full border-2 border-slate-600" />
-                    <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-slate-800"></div>
+                    {/* <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-slate-800"></div> */}
                   </div>
                   <div>
                     <h4 className="text-neutral-400 font-semibold text-2xl font-[family-name:var(--font-bebas-neue)]">{testimonial.name}</h4>
