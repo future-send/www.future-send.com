@@ -52,7 +52,7 @@ export default function PortfolioTabsdevcontent() {
         {remainingProjects.map((item, index) => (
           <div key={index}>
             <div className="w-full h-48 overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 rounded-xl">
-              <Link href={item.link} target="_blank" rel="noopener noreferrer">
+              <Link href={item.link} rel="noopener noreferrer">
                 <img src={item.imgThumb} alt={`${item.title} ${item.subtitle}`} className="object-cover w-full h-full" />
               </Link>
             </div>
