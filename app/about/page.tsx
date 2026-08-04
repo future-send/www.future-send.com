@@ -25,7 +25,7 @@ export default function AboutPage() {
               <div className="relative size-36 overflow-hidden rounded-3xl border border-border bg-secondary shadow-lg sm:size-72">
                 <Image src="/images/ethanRamolia.jpg" alt="Profile picture of the creator of FutureSend" fill className="object-cover" />
               </div>
-              <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-1.5 text-sm font-medium text-primary shadow-sm">
+              <span className="inline-flex items-center gap-2 rounded-full border border-primary bg-foreground px-4 py-1.5 text-sm font-medium text-primary shadow-sm">
                 <Sparkles className="size-4" />
                 About the Creator
               </span>
@@ -50,7 +50,7 @@ export default function AboutPage() {
 
           <Reveal delay={0.1} className="mt-8 flex flex-wrap gap-3">
             {evolution.map((item) => (
-              <span key={item} className="rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground shadow-sm">
+              <span key={item} className="rounded-full border border-foreground bg-primary px-4 py-2 text-sm font-medium text-foreground ">
                 {item}
               </span>
             ))}
@@ -61,19 +61,19 @@ export default function AboutPage() {
               <h2 className="text-xl font-semibold tracking-tight text-foreground">Contact Info</h2>
               <div className="flex flex-col gap-4">
                 <a href="tel:+15164049720" className="flex items-center gap-3 text-foreground transition-colors hover:text-primary">
-                  <span className="flex size-10 items-center justify-center rounded-xl bg-secondary text-primary">
+                  <span className="flex size-10 items-center justify-center rounded-xl bg-foreground text-primary">
                     <Phone className="size-5" />
                   </span>
                   516-404-9720
                 </a>
                 <a href="mailto:ethanramolia@gmail.com" className="flex items-center gap-3 text-foreground transition-colors hover:text-primary">
-                  <span className="flex size-10 items-center justify-center rounded-xl bg-secondary text-primary">
+                  <span className="flex size-10 items-center justify-center rounded-xl bg-foreground text-primary">
                     <Mail className="size-5" />
                   </span>
                   ethanramolia@gmail.com
                 </a>
               </div>
-              <CTAButton href="https://www.linkedin.com/in/ethan-ramolia-795b85419/" variant="secondary" className="w-fit">
+              <CTAButton href="https://www.linkedin.com/in/ethan-ramolia-795b85419/" variant="secondary" className="w-fit bg-primary border-none">
                 <Share2 className="size-4" />
                 Connect on LinkedIn
               </CTAButton>

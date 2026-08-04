@@ -34,7 +34,7 @@ export default function ContactPage() {
 
           <Reveal delay={0.1} className="mt-8 grid gap-4 sm:grid-cols-2">
             <a href="tel:+15164049720" className="flex items-center gap-3 rounded-2xl border border-border bg-card px-5 py-4 text-foreground shadow-sm transition-colors hover:border-primary/30 hover:text-primary">
-              <span className="flex size-10 items-center justify-center rounded-xl bg-secondary text-primary">
+              <span className="flex size-10 items-center justify-center rounded-xl bg-foreground text-primary">
                 <Phone className="size-5" />
               </span>
               <span className="flex flex-col">
@@ -43,7 +43,7 @@ export default function ContactPage() {
               </span>
             </a>
             <a href="https://www.linkedin.com/in/ethan-ramolia-795b85419/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded-2xl border border-border bg-card px-5 py-4 text-foreground shadow-sm transition-colors hover:border-primary/30 hover:text-primary">
-              <span className="flex size-10 items-center justify-center rounded-xl bg-secondary text-primary">
+              <span className="flex size-10 items-center justify-center rounded-xl bg-foreground text-primary">
                 <Share2 className="size-5" />
               </span>
               <span className="flex flex-col">

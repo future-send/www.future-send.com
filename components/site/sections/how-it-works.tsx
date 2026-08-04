@@ -19,7 +19,7 @@ const steps = [
 export function HowItWorks() {
   return (
     <section id="how-it-works" className="py-20 lg:py-28">
-      <div className="mx-auto max-w-6xl px-5 sm:px-8">
+      <div className="mx-auto container px-5 sm:px-8">
         <SectionTitle eyebrow="How it works" title="Three steps to never miss a moment" description="Set it once and FutureSend handles the rest — automatically, reliably, on time." />
         <div className="mt-14">
           <Timeline steps={steps} />

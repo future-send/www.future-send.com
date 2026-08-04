@@ -17,7 +17,7 @@ export function Hero() {
 
       <div className="mx-auto grid container items-center gap-12 px-5 pb-16 pt-32 sm:px-8 lg:grid-cols-2 lg:gap-8 lg:pb-24 lg:pt-60">
         <div className="flex flex-col items-start gap-7">
-          <motion.span initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease }} className="inline-flex items-center gap-2 rounded-full border border-primary bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+          <motion.span initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease }} className="inline-flex items-center gap-2 rounded-full border border-primary bg-foreground px-4 py-1.5 text-sm font-medium text-primary">
             <Sparkles className="size-4" />
             AI-powered message scheduling
           </motion.span>
