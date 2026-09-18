@@ -41,7 +41,6 @@ export default function AboutPage() {
             <p>I enjoy identifying real-world problems and creating practical solutions. FutureSend started as an idea to allow people to schedule important messages in advance.</p>
             <p>Back in 2024, I had what I thought was a simple idea: what if you could write a text today, but have it delivered exactly when it mattered most?</p>
             <p>Apparently, Apple was listening and introduced Send Later with iOS 18, giving iPhone users the ability to schedule iMessages.</p>
-
             <p>While it was fun to see such a similar idea become a native feature, it also reinforced something important: the need for thoughtful, time-based communication is real.</p>
             <p>Instead of stopping there, I decided to take the concept much further.</p>
             <p>Rather than simply scheduling a message, I began building a platform centered around meaningful future communication, one that helps people deliver messages, memories, milestones, and moments exactly when they're meant to be received.</p>
