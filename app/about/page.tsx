@@ -36,11 +36,12 @@ export default function AboutPage() {
 
         <section className="mx-auto max-w-4xl px-5 pb-20 sm:px-8 lg:pb-28">
           <Reveal className="flex flex-col gap-6 text-xl leading-relaxed text-muted-foreground">
-            <p>I am a motivated and responsible rising senior at Herricks High School with a strong interest in history and innovation.</p>
-            <p>Through my experience as a dental assistant, volunteer work in the community, and participation on my school&apos;s tennis and cross-country teams, I have developed leadership, teamwork, and communication skills.</p>
+            <p>I am a motivated and responsible student at Herricks High School with a strong interest in history and innovation.</p>
+            <p>Through my experience as a dental assistant, volunteer work in the community, and participation on my school's tennis and cross-country teams, I have developed leadership, teamwork, and communication skills.</p>
             <p>I enjoy identifying real-world problems and creating practical solutions. FutureSend started as an idea to allow people to schedule important messages in advance.</p>
-            <p> Back in 2024, I had what I thought was a simple idea: what if you could write a text today, but have it delivered exactly when it mattered most?</p>
-            <p>Apparently, Apple was listening. Shortly after forming _______ Apple introduced Send Later with iOS 18, giving iPhone users the ability to schedule iMessages.</p>
+            <p>Back in 2024, I had what I thought was a simple idea: what if you could write a text today, but have it delivered exactly when it mattered most?</p>
+            <p>Apparently, Apple was listening and introduced Send Later with iOS 18, giving iPhone users the ability to schedule iMessages.</p>
+
             <p>While it was fun to see such a similar idea become a native feature, it also reinforced something important: the need for thoughtful, time-based communication is real.</p>
             <p>Instead of stopping there, I decided to take the concept much further.</p>
             <p>Rather than simply scheduling a message, I began building a platform centered around meaningful future communication, one that helps people deliver messages, memories, milestones, and moments exactly when they're meant to be received.</p>
