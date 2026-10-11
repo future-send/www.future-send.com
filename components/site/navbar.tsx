@@ -51,7 +51,7 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <p className="rounded-sm  pe-4 font-heading py-2 text-base  font-bold uppercase transition-colors">Available August 31</p>
+          {/* <p className="rounded-sm  pe-4 font-heading py-2 text-base  font-bold uppercase transition-colors">Available August 31</p> */}
 
           <Link href="/">
             <img src="/images/iphone.svg" alt="Download on the App Store" className="h-9" />
