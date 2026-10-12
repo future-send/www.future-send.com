@@ -1,102 +1,65 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
-import { Check, Loader2, Send } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Phone, Mail, MapPin } from "lucide-react";
 
-type Status = "idle" | "submitting" | "done";
-
-const fieldClasses = "w-full rounded-xl border border-border bg-background px-4 py-3 text-foreground outline-none transition-colors placeholder:text-muted-foreground/40 focus:border-primary focus:ring-3 focus:ring-ring/30";
+function LinkedInIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="size-5 fill-current">
+      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124ZM7.119 20.452H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z" />
+    </svg>
+  );
+}
 
 export function ContactForm() {
-  const [status, setStatus] = useState<Status>("idle");
-
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-
-    if (status === "submitting") return;
-
-    setStatus("submitting");
-
-    const form = e.currentTarget;
-
-    const data = {
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      email: (form.elements.namedItem("email") as HTMLInputElement).value,
-      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
-    };
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      // if (!res.ok) {
-      //   throw new Error("Failed to send");
-      // }
-
-      form.reset();
-      setStatus("done");
-
-      // Dopo 5 secondi torna al pulsante normale
-      setTimeout(() => setStatus("idle"), 5000);
-    } catch (error) {
-      console.error(error);
-      setStatus("idle");
-      alert("Something went wrong. Please try again.");
-    }
-  }
-
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-      <div className="flex flex-col gap-2">
-        <label htmlFor="name" className="text-base font-medium text-foreground">
-          Name
-        </label>
-        <input id="name" name="name" type="text" required placeholder="Jane Doe" className={fieldClasses} />
+    <div className="flex flex-col gap-6 text-xl ">
+      {/* Phone */}
+      <a href="tel:+19173643751" className="group flex items-start gap-4">
+        <div className="flex size-11 shrink-0 items-center justify-center rounded-xl border border-border bg-foreground text-primary transition-colors group-hover:bg-white">
+          <Phone className="size-5" />
+        </div>
+
+        <div className="flex flex-col ">
+          <h3 className="font-medium text-foreground">Phone</h3>
+          <p className="text-muted-foreground transition-colors group-hover:text-foreground">+1 917 364 3751</p>
+        </div>
+      </a>
+
+      {/* Email */}
+      <a href="mailto:futuresendapp@gmail.com" className="group flex items-start gap-4">
+        <div className="flex size-11 shrink-0 items-center justify-center rounded-xl border border-border bg-foreground text-primary transition-colors group-hover:bg-white">
+          <Mail className="size-5 " />
+        </div>
+
+        <div className="flex flex-col ">
+          <h3 className="font-medium text-foreground">Email</h3>
+          <p className="text-muted-foreground transition-colors group-hover:text-foreground">futuresendapp@gmail.com</p>
+        </div>
+      </a>
+
+      {/* Address */}
+      <div className="flex items-start gap-4">
+        <div className="flex size-11 shrink-0 items-center justify-center rounded-xl border border-border bg-foreground text-primary">
+          <MapPin className="size-5" />
+        </div>
+
+        <div className="flex flex-col">
+          <h3 className="font-medium text-foreground">Address</h3>
+          <p className="text-muted-foreground">69 Greenway W, New Hyde Park, NY 11040, USA</p>
+        </div>
       </div>
 
-      <div className="flex flex-col gap-2">
-        <label htmlFor="email" className="text-base font-medium text-foreground">
-          Email
-        </label>
-        <input id="email" name="email" type="email" required placeholder="jane@example.com" className={fieldClasses} />
-      </div>
+      {/* LinkedIn */}
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit LinkedIn" className="group flex items-start gap-4">
+        <div className="flex size-11 shrink-0 items-center justify-center rounded-xl border border-border bg-foreground text-primary transition-colors group-hover:bg-white">
+          <LinkedInIcon />
+        </div>
 
-      <div className="flex flex-col gap-2">
-        <label htmlFor="message" className="text-base font-medium text-foreground">
-          Message
-        </label>
-        <textarea id="message" name="message" required rows={5} placeholder="Tell us how we can help…" className={cn(fieldClasses, "resize-none")} />
-      </div>
-
-      <button type="submit" disabled={status === "submitting"} className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-6 font-bold text-foreground shadow-sm shadow-primary/20 transition-all hover:bg-primary/60 disabled:opacity-70">
-        {status === "idle" ? (
-          <>
-            Send Message <Send className="size-4" />
-          </>
-        ) : null}
-        {status === "submitting" ? (
-          <>
-            Sending <Loader2 className="size-4 animate-spin" />
-          </>
-        ) : null}
-        {status === "done" ? (
-          <>
-            Message Sent <Check className="size-4" />
-          </>
-        ) : null}
-      </button>
-
-      {status === "done" ? (
-        <p className="text-sm text-primary" role="status">
-          Thanks for reaching out — we&apos;ll get back to you soon.
-        </p>
-      ) : null}
-    </form>
+        <div className="flex flex-col ">
+          <h3 className=" font-medium text-foreground">LinkedIn</h3>
+          <p className="text-muted-foreground transition-colors group-hover:text-foreground">Connect with us</p>
+        </div>
+      </a>
+    </div>
   );
 }
