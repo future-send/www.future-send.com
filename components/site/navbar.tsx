@@ -53,11 +53,11 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           {/* <p className="rounded-sm  pe-4 font-heading py-2 text-base  font-bold uppercase transition-colors">Available August 31</p> */}
 
-          <Link target="_blank" href="https://apps.apple.com/in/app/future-send/id6742232874">
+          <Link href="/">
             <img src="/images/iphone.svg" alt="Download on the App Store" className="h-9" />
           </Link>
 
-          <Link target="_blank" href="/">
+          <Link href="/">
             <img src="/images/android.svg" alt="Get it on Google Play" className="h-9" />
           </Link>
         </div>
